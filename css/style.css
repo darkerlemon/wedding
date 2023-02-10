@@ -12,7 +12,7 @@
 }
 
 body {
-    background-image: url("../images/background-mobile.png");
+    background-image: url("../images/background-mobile.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
@@ -82,7 +82,7 @@ footer {
     }
 
     body {
-        background-image: url("../images/background-desktop.png");
+        background-image: url("../images/background-desktop.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0 auto;
@@ -101,7 +101,7 @@ footer {
     }
 
     body {
-        background-image: url("../images/background-desktop.png");
+        background-image: url("../images/background-desktop.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0 auto;
