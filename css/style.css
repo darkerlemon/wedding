@@ -12,8 +12,9 @@
 }
 
 body {
-    background-image: url("../images/background.png");
+    background-image: url("../images/background-mobile.png");
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 auto;
     color: #C8C4D3;
 }
@@ -70,30 +71,31 @@ footer {
 
 @media only screen and (min-width: 641px) and (max-width: 992px) {
     body {
+        background-image: url("../images/background-desktop.png");
+        background-repeat: no-repeat;
         background-size: cover;
+        margin: 0 auto;
+    }
+    * {
+        font-size: 1rem;
+    }
+    h1 a {
+        font-size: 1.6rem;
+    }
+}
 
+
+@media only screen and (min-width: 993px) {
+    body {
+        background-image: url("../images/background-desktop.png");
+        background-repeat: no-repeat;
+        background-size: cover;
         margin: 0 auto;
     }
     * {
         font-size: 1.2rem;
     }
     h1 a {
-        font-size: 1.8rem;
-    }
-}
-
-
-
-
-@media only screen and (min-width: 993px) {
-    body {
-        background-size: cover;
-        margin: 0 auto;
-    }
-    * {
-        font-size: 1.5rem;
-    }
-    h1 a {
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
 }
