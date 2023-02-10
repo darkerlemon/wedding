@@ -75,6 +75,7 @@ section {
     background-color: #1f174179;
     padding: 0.8rem;
     border-radius: 5px;
+    text-align: center;
 }
 
 .images {
@@ -125,7 +126,7 @@ footer {
         background-image: url("../images/background-desktop.jpeg");
     }
     main {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
     
     h1 a {
