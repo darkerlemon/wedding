@@ -17,8 +17,12 @@ body {
     background-size: cover;
     margin: 0 auto;
     color: #C8C4D3;
+    border: 1px solid black;
 }
-
+.container {
+    position: relative;
+    min-height: 100vh;
+}
 header {
     background-color: #1f174179;
     padding: 0.4rem;
@@ -64,21 +68,26 @@ main {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: #1f174179;
-    padding: 1.5rem;
+    padding: 1.2rem;
     text-align: center;
 }
 
 @media only screen and (min-width: 641px) and (max-width: 992px) {
+    * {
+        font-size: 1rem;
+    }
+
     body {
         background-image: url("../images/background-desktop.png");
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0 auto;
     }
-    * {
-        font-size: 1rem;
-    }
+
     h1 a {
         font-size: 1.6rem;
     }
@@ -86,16 +95,19 @@ footer {
 
 
 @media only screen and (min-width: 993px) {
+
+    * {
+        font-size: 1.1rem;
+    }
+
     body {
         background-image: url("../images/background-desktop.png");
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0 auto;
     }
-    * {
-        font-size: 1.2rem;
-    }
+
     h1 a {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
