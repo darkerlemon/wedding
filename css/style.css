@@ -14,7 +14,8 @@
 }
 
 body {
-    background: black;
+    background-image: url('../images/ivana-cajina-asuyh-_ZX54-unsplash.jpg');
+    background-size: contain;
     margin: 0 auto;
     color: #C8C4D3;
 }
