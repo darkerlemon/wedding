@@ -160,10 +160,12 @@ label {
 }
   
 input {
-    margin: 0.4rem;
+    margin: 0.2rem;
+    padding: 0.3rem;
     width: 90%;
-    min-height: 2rem;
-    background-color: #130f1e;
+    min-height: 1.6rem;
+    max-height: 2.2rem;
+    background-color: #584D7D;
     border: 2px solid #130f1e;
     color: #C8C4D3;
 }
