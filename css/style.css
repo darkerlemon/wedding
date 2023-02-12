@@ -14,7 +14,7 @@
 }
 
 body {
-    background-image: url('../images/background.jpeg');
+    background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
@@ -71,11 +71,15 @@ main {
     padding-bottom: 4.5rem;
 }
 
-section {
+section, aside {
     background-color: #1f174179;
     padding: 0.8rem;
     border-radius: 5px;
     text-align: center;
+}
+
+#acknowledgement {
+    padding-bottom: 5rem;
 }
 
 article {
@@ -91,7 +95,15 @@ img {
     padding: 0.8rem;
 }
 
-#location {
+#blue {
+    color: rgb(70, 188, 247);
+}
+
+.yellow {
+    color: rgb(181, 181, 0);
+}
+
+#location, #aboutUs {
     width: 60em;
     height: auto;
 }
