@@ -178,12 +178,16 @@ input[type="submit"] {
     border-color: #C8C4D3;
 }
 
+.toolTip {
+    position: relative;
+}
+
 .tooltip {
 	display: block; 
 	position: absolute; 
 	visibility: hidden;
-	right: 25rem;
-	bottom: 10rem; 
+	left: 25rem;
+	top: 0; 
 	width: 10em;
 	padding: 0.5em;
 	font-weight: normal;
