@@ -99,9 +99,17 @@ img {
     color: rgb(181, 181, 0);
 }
 
-#location, #aboutUs {
+#location-img, #aboutUs {
     width: 60em;
     height: auto;
+}
+
+#location-h2 {
+    font-size: 2rem;
+}
+
+#location-h3 {
+    font-size: 1.2rem;
 }
 
 footer {
