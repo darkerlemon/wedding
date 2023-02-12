@@ -116,6 +116,19 @@ footer {
     h1 a {
         font-size: 1.6rem;
     }
+    .tooltip {
+        display: block; 
+        position: absolute; 
+        visibility: hidden;
+        left: 25rem;
+        top: 0; 
+        width: 10em;
+        padding: 0.5em;
+        font-weight: normal;
+        color: #C8C4D3;
+        background-color: #584D7D;
+        border:solid 2px #403465;
+    }
 }
 
 
@@ -135,6 +148,19 @@ footer {
 
     h1 a {
         font-size: 1.8rem;
+    }
+    .tooltip {
+        display: block; 
+        position: absolute; 
+        visibility: hidden;
+        left: 25rem;
+        top: 0; 
+        width: 10em;
+        padding: 0.5em;
+        font-weight: normal;
+        color: #C8C4D3;
+        background-color: #584D7D;
+        border:solid 2px #403465;
     }
 }
 
@@ -188,8 +214,8 @@ input[type="submit"] {
 	display: block; 
 	position: absolute; 
 	visibility: hidden;
-	left: 25rem;
-	top: 0; 
+	right: 0;
+	bottom: 0; 
 	width: 10em;
 	padding: 0.5em;
 	font-weight: normal;
