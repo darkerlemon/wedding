@@ -21,7 +21,7 @@ function addErrorMessage(id, msg) {
         // Create the span:
         span = document.createElement('span');
         span.id = newId;
-		span.className = 'error2'
+		span.className = 'error2';
         span.appendChild(document.createTextNode(msg));
         
         // Add the span to the parent:
@@ -70,7 +70,7 @@ function addCorrectMessage(id, msg) {
      // Create the span:
      span = document.createElement('span');
      span.id = newId;
-     span.className = 'correct2'
+     span.className = 'correct2';
      span.appendChild(document.createTextNode(msg));
      
      // Add the span to the parent:

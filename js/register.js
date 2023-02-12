@@ -14,10 +14,6 @@ function validateForm(e) {
 	var lastName = U.$('lastName');
 	var email = U.$('email');
 	var phone = U.$('phone');
-	var city = U.$('city');
-	var state = U.$('state');
-	var zip = U.$('zip');
-	var terms = U.$('terms');
 
 	// Flag variable:
 	var error = false;
