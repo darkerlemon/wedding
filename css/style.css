@@ -73,18 +73,14 @@ main {
 
 section, aside {
     background-color: #1f174179;
-    padding: 0.8rem;
+    margin: 0.8rem;
+    padding: 1.6rem;
     border-radius: 5px;
     text-align: center;
 }
 
 #acknowledgement {
     padding-bottom: 5rem;
-}
-
-article {
-    margin: 0.8rem;
-    padding: 0.8rem;
 }
 
 img {
