@@ -14,7 +14,7 @@
 }
 
 body {
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/background-space.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
@@ -35,6 +35,12 @@ h1 {
     color: #C8C4D3;
 }
 h1 a {
+    font-size: 1.5rem;
+}
+
+
+.heading {
+    padding: 1rem;
     font-size: 1.5rem;
 }
 
@@ -72,7 +78,7 @@ main {
 }
 
 section {
-    background-color: #1f174179;
+    background-color: rgb(31, 23, 65, 0.7) ;
     margin: 0.8rem;
     padding: 1.6rem;
     border-radius: 5px;
@@ -93,6 +99,11 @@ img {
     padding: 0.8rem;
 }
 
+#google-form {
+    width: 80%;
+    height: 1200px;
+}
+
 #blue {
     color: rgb(70, 188, 247);
 }
@@ -101,8 +112,14 @@ img {
     color: rgb(181, 181, 0);
 }
 
-#location-img, #aboutUs {
-    width: 60em;
+#location-img {
+    width: 60rem;
+    height: auto;
+} 
+
+
+#aboutUs {
+    width: 30em;
     height: auto;
 }
 
@@ -112,6 +129,10 @@ img {
 
 #location-h3 {
     font-size: 1.2rem;
+}
+
+#date {
+    font-size: 2.5rem;
 }
 
 footer {
@@ -136,10 +157,6 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     }
 
-    ul {
-        justify-content: flex-end;
-    }
-
     h1 a {
         font-size: 1.6rem;
     }
@@ -160,9 +177,6 @@ footer {
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     }
 
-    ul {
-        justify-content: flex-end;
-    }
 
     h1 a {
         font-size: 1.8rem;
