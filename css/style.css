@@ -192,6 +192,11 @@ footer {
     border-radius: 5px;
   }
   
+.schedule-table {
+    display: block;
+
+}
+
   .schedule-heading {
     text-align: center;
     font-size: 2rem;
@@ -199,13 +204,11 @@ footer {
   }
   
   .schedule-row {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem;
+    margin-bottom: 10px;
   }
   
   .schedule-cell {
+    display: block;
     padding: 0.5rem;
     border-radius: 5px;
     font-weight: bolder;
