@@ -3,6 +3,7 @@
     src: url(../fonts/Orbitron-VariableFont_wght.ttf);
  }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -106,10 +107,12 @@ img {
 
 #blue {
     color: rgb(70, 188, 247);
+    font-size: 1.3rem;
 }
 
 .yellow {
     color: rgb(181, 181, 0);
+    font-weight: 500;
 }
 
 #location-img {
@@ -132,7 +135,11 @@ img {
 }
 
 #date {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+}
+
+#wedding-para {
+    font-size: 1.8rem;
 }
 
 footer {
@@ -147,6 +154,78 @@ footer {
 .copyrightAndPrivacy {
     font-size: 0.6rem;
 }
+
+
+.rsvp-section {
+    text-align: center;
+  }
+  
+  .rsvp-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 1.5rem;
+    background-color: #584D7D;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rsvp-button:hover {
+    background-color: #403465;
+  }
+  
+.rsvp-heading {
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    color: rgb(70, 188, 247);
+}
+
+.rsvp-para {
+    padding: 1rem;
+}
+
+.schedule {
+    background-color: rgb(31, 23, 65, 0.7);
+    padding: 2rem;
+    border-radius: 5px;
+  }
+  
+  .schedule-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .schedule-row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .schedule-cell {
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+  }
+  
+  .time {
+    background-color: #584D7D;
+    color: #FFFFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 280px;
+  }
+  
+  .event {
+    background-color: #C8C4D3;
+    color: #403465;
+  }
+  
+  
+
 
 @media only screen and (min-width: 641px) and (max-width: 992px) {
     * {
@@ -185,6 +264,7 @@ footer {
         bottom: 5rem;
         right: 5rem; 
     }
+    
 }
 
 
