@@ -24,10 +24,13 @@ body {
 .container {
     position: relative;
     min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
 }
 header {
     background-color: #1f174179;
     padding: 0.4rem;
+    width: 100%;
 }
 
 h1 {
@@ -50,6 +53,7 @@ ul {
     justify-content: space-around;
     list-style-type: none;
     margin: 0.2rem;
+    flex-wrap: wrap;
 }
 
 li {
@@ -188,8 +192,9 @@ footer {
 
 .schedule {
     background-color: rgb(31, 23, 65, 0.7);
-    padding: 2rem;
+    /* padding: 2rem; */
     border-radius: 5px;
+    width: 100%;
   }
   
 .schedule-table {
@@ -219,7 +224,6 @@ footer {
     background-color: #584D7D;
     color: #FFFFFF;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 280px;
   }
   
   .event {
